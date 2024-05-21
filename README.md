@@ -1,28 +1,42 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask3&demo-title=Flask%203%20%2B%20Vercel&demo-description=Use%20Flask%203%20on%20Vercel%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask3-python-template.vercel.app%2F&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png)
 
-# Flask + Vercel
+# AI Michelin Dessert Master System
 
-This example shows how to use Flask 3 on Vercel with Serverless Functions using the [Python Runtime](https://vercel.com/docs/concepts/functions/serverless-functions/runtimes/python).
+Tkinter version
+Web App version："https://github.com/Nana1018/AIbaking"
 
-## Demo
-
-https://flask-python-template.vercel.app/
+### About:
+This study utilizes neural network technology to establish a model for French dessert recipes. The system can identify dessert types from recipes. It empowers AI with innovative capabilities to create desserts with entirely new flavors, such as "Cakie" (50% cake, 50% cookie) and "Breakie" (50% bread, 50% cookie). Additionally, it provides baking guidelines for users, recommending appropriate oven temperatures and baking times. It can also generate dessert recipes based on taste preferences.
 
 ## How it Works
 
-This example uses the Web Server Gateway Interface (WSGI) with Flask to enable handling requests on Vercel with Serverless Functions.
+Downloading the total file,
+first implement tktestbaking_returnv1.py file, which is the main program.
+##### Models.
+      0422bakingT_t = the model used by AI baking.
+      bakingrecipefrench0420 = the model used by Generate Recipe.
+##### files.
+      francerecipet100.csv = data set
+      bread.jpg , bread.jpg etc. = Pictures shown(You can change it to what you want)
+## How to use
 
-## Running Locally
+The system consists of two pages. The first page is the AI Baking interface, and the other page is the Make Recip page.
 
-```bash
-npm i -g vercel
-vercel dev
-```
+AI baking interface:
+The recipe have 16 ingredients, enter the required ingredients and their weight (in grams) into the box grid. Press the "Baking" button,the dessert and baking method of this recipe will be obtained through the category neural model and the baking method neural model. You can also get the probability that the system recognizes that type of dessert.
 
-Your Flask application is now available at `http://localhost:3000`.
+Make Recip interface:
+Pressing the "Output_recipes" button will navigate to the Generate Recipe page. In this screen, you'll enter the desired taste preferences. Pressing the "Making" button will utilize the generation neural model to generate an ingredient recipe that matches the taste requirements for this dessert.
+      
+## Citing
 
-## One-Click Deploy
+@article{AI Baking_Tkinter,
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Author={Anna. {Lo},
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask3&demo-title=Flask%203%20%2B%20Vercel&demo-description=Use%20Flask%203%20on%20Vercel%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask3-python-template.vercel.app%2F&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png)
+title={Tkinter version of AI Michelin Dessert Master System - Research on the application of artificial intelligence in dessert making},
+
+year={2024} }
+
+Project Leader
+Lo, Hsin-Le
