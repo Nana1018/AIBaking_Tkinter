@@ -2,8 +2,9 @@
 
 # AI Michelin Dessert Master System
 
-Tkinter version
-Web App version："https://github.com/Nana1018/AIbaking"
+This is the Tkinter version
+
+Web App version in here："https://github.com/Nana1018/AIbaking"
 
 ### About:
 This study utilizes neural network technology to establish a model for French dessert recipes. The system can identify dessert types from recipes. It empowers AI with innovative capabilities to create desserts with entirely new flavors, such as "Cakie" (50% cake, 50% cookie) and "Breakie" (50% bread, 50% cookie). Additionally, it provides baking guidelines for users, recommending appropriate oven temperatures and baking times. It can also generate dessert recipes based on taste preferences.
