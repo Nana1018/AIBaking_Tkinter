@@ -1,5 +1,3 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask3&demo-title=Flask%203%20%2B%20Vercel&demo-description=Use%20Flask%203%20on%20Vercel%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask3-python-template.vercel.app%2F&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png)
-
 # Tkinter version of AI Michelin Dessert Master System
 
 This is the Tkinter version
@@ -33,7 +31,7 @@ Pressing the "Output_recipes" button will navigate to the Generate Recipe page. 
 
 @article{AI Baking_Tkinter,
 
-Author={Anna. {Lo},
+Author={Hsin-Le. {Lo},
 
 title={Tkinter version of AI Michelin Dessert Master System - Research on the application of artificial intelligence in dessert making},
 
